@@ -1,15 +1,18 @@
 version: 0.2
 
-phases: 
+phases:
   pre_build:
     commands:
       - echo "Installing dependencies..."
+      - cd ui
       - npm install
+      - cd ..
   build:
     commands:
-      - echo "Building and zipping..."
+      - echo "Building..."
+      - cd ui
       - npm run build
-  
+
   post_build:
     commands:
       # - echo "Uploading to lambda..."
@@ -20,4 +23,4 @@ artifacts:
   files:
     - "**/**"
   discard-paths: no
-  base-directory: dist
+  base-directory: ui/build
