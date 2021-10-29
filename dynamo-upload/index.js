@@ -51,8 +51,8 @@ const getLiveMatchesFromAPI = async () => {
   return liveMatches;
 };
 
-// exports.handler = async (event, context) => {
-const func = async () => {
+exports.handler = async (event, context) => {
+  // const func = async () => {
   await getLiveMatchesFromAPI();
 
   for (let i = 0; i < liveMatches.length; i++) {
@@ -67,4 +67,4 @@ const func = async () => {
   }
 };
 
-func();
+// func();
