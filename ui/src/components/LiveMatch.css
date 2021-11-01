@@ -1,0 +1,29 @@
+.livematch__con {
+  margin: auto;
+  width: 50%;
+  background-color: yellow;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin: 1rem;
+}
+.livematch__homeTeam {
+  flex: 0.4;
+  display: flex;
+  justify-content: center;
+}
+.livematch__livescores {
+  flex: 0.2;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+.livematch__awayTeam {
+  flex: 0.4;
+  display: flex;
+  justify-content: center;
+}
