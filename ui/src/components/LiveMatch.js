@@ -1,12 +1,12 @@
 import React from "react";
 import "./LiveMatch.css";
 
-export default function LiveMatch(data) {
+export default function LiveMatch({data}) {
   return (
     <div className="livematch__con">
       <div className="livematch__homeTeam">
         <span>
-          <img src={data.TeamA_logo} alt="logo" />
+          <img src={data.TeamA_Logo} alt="logo" />
         </span>
         {data.TeamA}
       </div>
@@ -19,7 +19,7 @@ export default function LiveMatch(data) {
       <div className="livematch__awayTeam">
         {data.TeamB}
         <span>
-          <img src={data.TeamB_logo} alt="logo" />
+          <img src={data.TeamB_Logo} alt="logo" />
         </span>
       </div>
     </div>
