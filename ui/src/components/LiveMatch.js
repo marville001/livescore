@@ -3,7 +3,7 @@ import "./LiveMatch.css";
 
 export default function LiveMatch({data}) {
   return (
-    <div className="livematch__con">
+    <div className="livematch__container">
       <div className="livematch__homeTeam">
         <span>
           <img src={data.TeamA_Logo} alt="logo" />

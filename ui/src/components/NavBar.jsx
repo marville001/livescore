@@ -1,6 +1,6 @@
 import React from "react";
 
-import { AppBar, Typography, Toolbar, Button } from "@mui/material";
+import { AppBar, Typography, Toolbar } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles({
@@ -19,7 +19,7 @@ const NavBar = () => {
     <>
       <AppBar className="header" position="static" color={"primary"}>
         <Toolbar>
-          <Typography variant="h5" className={classes.root} display="flex">
+          <Typography variant="h5" className={classes.root} display="flex" justifyContent="center">
             <h5 className={classes.linkStyle} to="/">
               Live Match Day
             </h5>

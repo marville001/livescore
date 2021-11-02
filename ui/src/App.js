@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import { Card } from "@mui/material";
 import Box from "@mui/material/Box";
 
+
 function App() {
   const dummyData = {
     TeamA: "NK Rudar Labin",

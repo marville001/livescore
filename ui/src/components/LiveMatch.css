@@ -1,5 +1,5 @@
-.livematch__con {
-  margin: auto;
+.livematch__container {
+  margin: 1rem;
   width: 50%;
   background-color: lightgray;
   height: 10vh;
@@ -7,7 +7,6 @@
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  margin: 1rem;
 }
 .livematch__homeTeam {
   flex: 0.4;
