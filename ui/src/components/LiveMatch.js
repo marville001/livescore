@@ -11,14 +11,14 @@ export default function LiveMatch({ data }) {
   
   console.log(livescores[0]);
   useEffect(() => {
-    dispatch(getLiveScoresLoad())
+   if(livescores.length === 0) dispatch(getLiveScoresLoad())
   }, [])
 
   if (loading) return <h6>Loading data....</h6>
   
   return (
     <div className="livematch__container">
-      {livescores[0].length !== 0 && livescores[0]?.map((data) => (
+      {livescores[0]?.map((data) => (
         <>
          <div className="livematch__homeTeam">
         <span>

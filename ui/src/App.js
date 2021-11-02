@@ -25,10 +25,7 @@ function App() {
       <Box border={1} borderColor="black" height={600}>
         <div>
           <NavBar />
-          <LiveMatch data={dummyData} />
-          <LiveMatch data={dummyData} />
-          <LiveMatch data={dummyData} />
-          <LiveMatch data={dummyData} />
+          <LiveMatch />
         </div>
       </Box>
     </Card>
