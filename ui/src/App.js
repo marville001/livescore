@@ -4,8 +4,6 @@ import LiveMatch from "./components/LiveMatch";
 import NavBar from "./components/NavBar";
 import { Container } from "@mui/material";
 
-
-
 function App() {
   return (
     <Container>

@@ -3,13 +3,12 @@
   height: 100vh;
   display: grid;
   align-items: center;
-  justify-content: center;
   font-weight: bold;
 }
 .matches{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-content: space-between;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
   direction: rtl;
   background-color: lightgray;
   width: 100%;
