@@ -6,7 +6,7 @@ import { AppBar, Typography, Toolbar } from "@mui/material";
 const NavBar = () => {
   return (
     <>
-      <AppBar position="static" color={"primary"}>
+      <AppBar position="static" color={"error"}>
         <Toolbar>
           <Typography variant="h5" display="flex" justifyContent="center">
             <h5 >

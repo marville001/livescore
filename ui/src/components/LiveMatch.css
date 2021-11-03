@@ -8,11 +8,11 @@
 }
 .matches{
   display: grid;
-  grid-template-columns: 20vw 20vw 20vw 20vw;
+  grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
   direction: rtl;
   background-color: lightgray;
-  width: 80vw;
+  width: 100%;
   border: 1px black;
   margin: 1px;
   padding: 10px;
@@ -31,4 +31,9 @@
 .livematch__awayTeam {
   display: flex;
   justify-content: center;
+}
+.team-name{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
 }
