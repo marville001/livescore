@@ -8,7 +8,7 @@ const NavBar = () => {
     <>
       <AppBar position="static" color={"error"}>
         <Toolbar>
-          <Typography variant="h5" display="flex" justifyContent="center">
+          <Typography variant="h5" display="flex" justifyContent="center" alignItems="center">
             <h5 >
               Live Match Day
             </h5>
