@@ -35,7 +35,7 @@ export default function LiveMatch({ data }) {
             </div>
             <div className="livematch__awayTeam">
               <span className="team-name">{data.TeamB}</span>
-              <span>
+              <span className="logo-2">
                 <img src={data.TeamB_Logo} alt="logo" />
               </span>
             </div>
