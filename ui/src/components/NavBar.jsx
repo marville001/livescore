@@ -1,26 +1,15 @@
 import React from "react";
 
 import { AppBar, Typography, Toolbar } from "@mui/material";
-import { makeStyles } from "@mui/styles";
 
-const useStyles = makeStyles({
-  root: {
-    flexGrow: 1,
-  },
-  linkStyle: {
-    color: "#fafafa",
-    textDecoration: "none",
-  },
-});
 
 const NavBar = () => {
-  const classes = useStyles();;
   return (
     <>
-      <AppBar className="header" position="static" color={"primary"}>
+      <AppBar position="static" color={"primary"}>
         <Toolbar>
-          <Typography variant="h5" className={classes.root} display="flex" justifyContent="center">
-            <h5 className={classes.linkStyle} to="/">
+          <Typography variant="h5" display="flex" justifyContent="center">
+            <h5 >
               Live Match Day
             </h5>
           </Typography>

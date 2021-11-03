@@ -1,28 +1,34 @@
 .livematch__container {
   margin: 1rem;
-  width: 50%;
-  background-color: lightgray;
-  height: 10vh;
-  display: flex;
+  height: 100vh;
+  display: grid;
   align-items: center;
   justify-content: center;
   font-weight: bold;
 }
+.matches{
+  display: grid;
+  grid-template-columns: 20vw 20vw 20vw 20vw;
+  justify-content: space-between;
+  direction: rtl;
+  background-color: lightgray;
+  width: 80vw;
+  border: 1px black;
+  margin: 1px;
+  padding: 10px;
+}
 .livematch__homeTeam {
-  flex: 0.4;
   display: flex;
+  justify-content: space-evenly;
   justify-content: center;
 }
 .livematch__livescores {
-  flex: 0.2;
   background-color: white;
-  display: flex;
+  display: grid;
   justify-content: center;
-  height: 100%;
   align-items: center;
 }
 .livematch__awayTeam {
-  flex: 0.4;
   display: flex;
   justify-content: center;
 }
